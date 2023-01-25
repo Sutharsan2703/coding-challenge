@@ -1,0 +1,119 @@
+
+
+.container{
+  float: right;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 900px;
+  height: 500px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(116, 106, 109);
+  background-color: aliceblue;
+}
+
+
+  body{
+    background-color: hsl(30, 38%, 92%);
+  }
+  
+  .imagess {
+    height: 59px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+ 
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+
+  .paragraph {
+    color:hsl(212, 21%, 14%);
+   
+    font-family: Fraunces;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+  }
+
+  .content{
+    margin: 20px;
+    
+  }
+  section{
+    display: flex;
+  }
+
+  .top h2 {
+    color: hsl(228, 12%, 48%);
+    font-size: 1.35em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+  }
+  .top h1 {
+    color:rgb(26, 26, 59);
+    font-size: 2.5em;
+    font-weight: 500,700;
+    font-family: montserrat;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .amount {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 170px);
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .amount .sale p{
+    color:hsl(158, 36%, 37%);
+    font-size: 8mm;
+    font-weight: 700;
+    font-family: serif;
+  }
+  .amount .mrp  {
+    color: hsl(228, 12%, 48%);
+    padding-right: 10cm;
+    text-decoration: line-through;
+    
+  }
+  .button {
+    align-items: center;
+    background-color:darkgreen;
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    margin-top: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 300px;
+  }
+  .button .button-part {
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #icon {
+    margin-top: 17px;
+    
+  }
+  .button  p {
+    min-width: 100px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+  }
